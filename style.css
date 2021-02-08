@@ -1,9 +1,9 @@
 body {
- background: pink; 
- color: blue;
+ background: lightblue; 
+ color: purple;
  font-size: 40px;
 }
 
 p {
-	background: yellow;
+	background: lightyellow;
 }
