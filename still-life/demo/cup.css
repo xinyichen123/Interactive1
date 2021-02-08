@@ -1,0 +1,36 @@
+body{
+
+}
+
+.cup{
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background: lightgrey;
+}
+
+.square{
+    width: 400px;
+    height: 400px;
+    background: black;  
+   position: absolute;
+   top: 100px;
+   left: 20px;
+}
+.handle{
+    width: 200px;
+    height: 200px;
+    background: black;
+    position: absolute;
+    left: 350px;
+    top: 190px;
+}
+
+.counter{
+    width: 90px;
+    height: 140px;
+    background: lightgrey;
+    position: absolute;
+    left: 420px;
+    top: 219px;
+}
