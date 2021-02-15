@@ -2,35 +2,77 @@ body{
 
 }
 
+p{
+    font-size: 40px;
+    color: blue;
+}
+
+p:hover {
+    border: solid red;
+    transform: translate(30px, 20px) rotate(20deg);
+    width: 200px;
+    height: 100px;
+  }
+
 .cup{
     position: relative;
     width: 600px;
-    height: 600px;
-    background: lightgrey;
+    height: 1000px;
+    background: red;
 }
 
-.square{
-    width: 400px;
-    height: 400px;
-    background: black;  
-   position: absolute;
-   top: 100px;
-   left: 20px;
+* {
+ transition: all 1500ms ease;
+ filter: drop-shadow(16px 16px 20px blue) invert(100%);
 }
+.square{
+    width: 300px;
+    height: 430px;
+    background: #384875;  
+   position: absolute;
+   border-bottom-right-radius: 50px;
+   border-bottom-left-radius: 50px;
+   border-top-right-radius: 50px;
+   border-top-left-radius: 50px;
+   top: 70px;
+   left: 150px;
+}
+.square:hover {
+    background: yellow; 
+    filter: blur(50px);
+}
+
 .handle{
-    width: 200px;
-    height: 200px;
-    background: black;
+    width: 50px;
+    height: 410px;
+    background: #5972b9;
     position: absolute;
-    left: 350px;
-    top: 190px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    left: 270px;
+    top: 80px;
+}
+.handle:hover {
+    background: red; 
+    filter: blur(40px);
 }
 
 .counter{
-    width: 90px;
-    height: 140px;
-    background: lightgrey;
+    width: 80px;
+    height: 200px;
+    background: #2396f3c2;
     position: absolute;
-    left: 420px;
-    top: 219px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    left: 255px;
+    top: 500px;
 }
+
+.square: hover {
+  background: red;
+  filter: blur(10px);
+}
+
+
