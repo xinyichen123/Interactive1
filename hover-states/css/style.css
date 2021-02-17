@@ -1,0 +1,140 @@
+* {
+	box-sizing: border-box;
+	background: #ecc6ec;
+}
+
+/* type */
+
+body{
+	font-family: 'Arial', sans-serif;
+}
+
+/* text */
+
+p {
+	font-size: 22px;
+}
+
+p:hover {
+    border: solid red;
+    transform: translate(30px, 20px) rotate(20deg);
+    width: 200px;
+    height: 100px;
+  }
+
+* {
+ transition: all 1500ms ease;
+ filter: drop-shadow(16px 16px 20px blue) invert(100%);
+}
+/* try uncommenting below to see text changes on hover */
+
+/*p:hover {
+	letter-spacing: 2px;
+}*/
+
+
+/* 
+
+CSS shapes 
+https://css-tricks.com/the-shapes-of-css/
+
+*/
+
+.shape{
+	display: inline-block;
+	padding: 20px;
+	vertical-align: top;
+	position: relative;
+}
+
+/* try uncommenting below to see blur on hover */
+
+/*.shape:hover div {
+	filter: blur(10px);
+} */
+
+/* circles */
+
+.circle {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	background: #673ab7;
+}
+
+.circle:hover {
+    background: yellow; 
+    filter: blur(50px);
+}
+
+.oval {
+	width: 300px;
+	height: 100px;
+	background: #075390;
+	border-radius: 150px / 50px;
+}
+
+.oval:hover {
+    background: red; 
+    filter: blur(40px);
+}
+.sliver {
+	width: 300px;
+	height: 40px;
+	background: #673ab7;
+	border-radius: 150px / 20px;
+}
+.sliver:hover {
+    background: purple; 
+    filter: blur(30px);
+}
+/* square */
+
+.rect {
+	width: 40px;
+	height: 437px;
+	background: lightgreen;
+	display: inline-block;
+	margin: 0px 5px;
+}
+
+.rect:hover {
+    background: purple; 
+    filter: blur(30px);
+}
+
+/* stars */
+
+.star {
+	background: lightblue;
+	width: 80px;
+	height: 80px;
+	position: relative;
+	text-align: center;
+
+	transform-origin: top left;
+	transform: scaleX(2) scaleY(4.25) translateX(10px) translateY(10px);
+}
+
+.star:before,
+.star:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 80px;
+	width: 80px;
+	background: lightblue;
+}
+
+.star:before {
+	transform: rotate(30deg);
+}
+
+.star:after {
+	transform: rotate(60deg);
+}
+.star:hover {
+    background: purple; 
+    filter: blur(30px);
+}
