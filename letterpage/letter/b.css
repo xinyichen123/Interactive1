@@ -1,0 +1,88 @@
+body{
+
+}
+
+.bounding-box{
+    position: relative;
+    width: 400px;
+    height: 600px;
+    background: lightgrey;
+}
+
+.vertical-stroke {
+    width: 100px;
+    height: 100px;
+    border-radius: 150px;
+    background: black;
+    position: absolute;
+    top: 32px;
+    left: 0px;
+}
+
+.round {
+    width: 100px;
+    height: 100px;
+    border-radius: 150px;
+    background: black;
+    position: absolute;
+}
+
+.top {
+    top: 39px;
+    left: 80px;
+}
+
+.bottom {
+    top: 210px;
+    left: 0px;
+}
+
+.line {
+    width: 100px;
+    height: 100px;
+    border-radius: 150px;
+    background: black;
+    position: absolute;
+}
+
+.no1 {
+    top: 120px;
+    left: 0px;
+}
+
+.no2 {
+    top: 300px;
+    left: 0px;
+}
+.no3 {
+    top: 390px;
+    left: 0px;
+}
+.no4 {
+    top: 390px;
+    left: 80px;
+}
+.no5 {
+    top: 350px;
+    left: 150px;
+}
+.no6 {
+    top: 280px;
+    left: 185px;
+}
+.no7 {
+    top: 210px;
+    left: 150px;
+}
+.no8 {
+    top: 210px;
+    left: 75px;
+}
+.no9 {
+    top: 140px;
+    left: 185px;
+}
+.no10 {
+    top: 70px;
+    left: 155px;
+}
