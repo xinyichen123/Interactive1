@@ -1,0 +1,135 @@
+body{
+
+}
+
+.bounding-box{
+    position: relative;
+    width: 400px;
+    height: 600px;
+    background: lightgrey;
+}
+
+.pointer {
+    position: absolute;
+    width: 100px;
+    height: 70px;
+    background-color: black;
+    border-radius: 40% 40% 40% 40% / 50% 50% 50% 50%;
+    }
+
+.no1 {
+    transform: rotate(90deg);
+    top: 30px;
+    left: 0px;
+}
+.no2 {
+    transform: rotate(90deg);
+    top: 100px;
+    left: 0px;
+}
+.no3 {
+    transform: rotate(90deg);
+    top: 170px;
+    left: 0px;
+}
+.no4 {
+    transform: rotate(90deg);
+    top: 240px;
+    left: 0px;
+}
+.no5 {
+    transform: rotate(90deg);
+    top: 310px;
+    left: 0px;
+}
+.no6 {
+    transform: rotate(90deg);
+    top: 380px;
+    left: 0px;
+}
+.no7 {
+    transform: rotate(90deg);
+    top: 450px;
+    left: 0px;
+}
+.no8 {
+    transform: rotate(360deg);
+    top: 10px;
+    left: 40px;
+}
+.no9 {
+    transform: rotate(360deg);
+    top: 10px;
+    left: 110px;
+}
+.no10 {
+    transform: rotate(22deg);
+    top: 20px;
+    left: 180px;
+}
+.no11 {
+    transform: rotate(50deg);
+    top: 60px;
+    left: 230px;
+}
+.no12 {
+    transform: rotate(105deg);
+    top: 120px;
+    left: 240px;
+}
+.no13 {
+    transform: rotate(145deg);
+    top: 170px;
+    left: 200px;
+}
+.no14 {
+    transform: rotate(165deg);
+    top: 200px;
+    left: 140px;
+}
+.no15 {
+    transform: rotate(175deg);
+    top: 210px;
+    left: 70px;
+}
+.no16 {
+    transform: rotate(22deg);
+    top: 240px;
+    left: 160px;
+}
+.no17 {
+    transform: rotate(49deg);
+    top: 270px;
+    left: 210px;
+}
+.no18 {
+    transform: rotate(61deg);
+    top: 310px;
+    left: 240px;
+}
+.no19 {
+    transform: rotate(105deg);
+    top: 380px;
+    left: 240px;
+}
+
+.no20 {
+    transform: rotate(180deg);
+    top: 460px;
+    left: 140px;
+}
+.no21 {
+    transform: rotate(180deg);
+    top: 460px;
+    left: 140px;
+}
+.no22 {
+    transform: rotate(180deg);
+    top: 460px;
+    left: 70px;
+}
+.no23 {
+    transform: rotate(140deg);
+    top: 440px;
+    left: 200px;
+}
