@@ -11,30 +11,36 @@ body{
     left: 0px;
 }
 
+
 .pointer {
     position: absolute;
     width: 100px;
-    height: 70px;
-    background-color: white;
+    height: 40px;
     border-radius: 40% 40% 40% 40% / 50% 50% 50% 50%;
     z-index: 1;
-    }
-.pointer2 {
-    position: absolute;
-    width: 110px;
-    height: 80px;
-    background-color: #06060654;
-    border-radius: 40% 40% 40% 40% / 50% 50% 50% 50%;
-    }
-
-.pointer:hover {
-    background: yellow; 
-    filter: blur(50px);
+    background-color:rgb(0,152,50);
+    opacity:0.7;
+    filter:alpha(opacity=70);
+    box-shadow: 1px 2px 3px 4px #333
 }
+* {
+ transition: all 1500ms ease;
+}
+
+/* {
+ transition: all 1500ms ease;
+ filter: drop-shadow(16px 16px 20px blue) invert(100%);
+ box-shadow: 1px 2px 3px 4px #333
+}/
+ 
+/*.no1:hover {
+    background: black; 
+    filter: blur(50px);
+}*/
 
 .no1 {
     transform: rotate(90deg);
-    top: 30px;
+    top: 50px;
     left: 0px;
 }
 .no2 {
@@ -64,7 +70,7 @@ body{
 }
 .no7 {
     transform: rotate(90deg);
-    top: 450px;
+    top: 425px;
     left: 0px;
 }
 .no8 {
@@ -83,29 +89,29 @@ body{
     left: 180px;
 }
 .no11 {
-    transform: rotate(50deg);
+    transform: rotate(77deg);
     top: 60px;
-    left: 230px;
+    left: 215px;
 }
 .no12 {
-    transform: rotate(105deg);
+    transform: rotate(97deg);
     top: 120px;
-    left: 240px;
+    left: 220px;
 }
 .no13 {
-    transform: rotate(145deg);
+    transform: rotate(138deg);
     top: 170px;
-    left: 200px;
+    left: 193px;
 }
 .no14 {
     transform: rotate(165deg);
     top: 200px;
-    left: 140px;
+    left: 130px;
 }
 .no15 {
     transform: rotate(175deg);
     top: 210px;
-    left: 70px;
+    left: 55px;
 }
 .no16 {
     transform: rotate(22deg);
@@ -113,38 +119,34 @@ body{
     left: 160px;
 }
 .no17 {
-    transform: rotate(49deg);
-    top: 270px;
-    left: 210px;
+    transform: rotate(46deg);
+    top: 280px;
+    left: 220px;
 }
 .no18 {
-    transform: rotate(61deg);
-    top: 310px;
+    transform: rotate(92deg);
+    top: 340px;
     left: 240px;
 }
 .no19 {
-    transform: rotate(105deg);
-    top: 380px;
-    left: 240px;
+    transform: rotate(113deg);
+    top: 410px;
+    left: 220px;
 }
 
 .no20 {
-    transform: rotate(180deg);
-    top: 460px;
-    left: 140px;
+    transform: rotate(166deg);
+    top: 446px;
+    left: 180px;
 }
+
 .no21 {
-    transform: rotate(180deg);
-    top: 460px;
-    left: 140px;
+    transform: rotate(171deg);
+    top: 456px;
+    left: 110px;
 }
 .no22 {
     transform: rotate(180deg);
     top: 460px;
-    left: 70px;
-}
-.no23 {
-    transform: rotate(140deg);
-    top: 440px;
-    left: 200px;
+    left: 48px;
 }
