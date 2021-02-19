@@ -1,0 +1,104 @@
+body{
+
+}
+
+.bounding-box{
+    position: relative;
+    width: 400px;
+    height: 600px;
+    background: lightgrey;
+}
+
+.pointer {
+    position: absolute;
+    width: 100px;
+    height: 70px;
+    background-color: black;
+    border-radius: 40% 40% 40% 40% / 50% 50% 50% 50%;
+    }
+
+.no1 {
+    transform: rotate(90deg);
+    top: 30px;
+    left: 0px;
+}
+.no2 {
+    transform: rotate(90deg);
+    top: 100px;
+    left: 0px;
+}
+.no3 {
+    transform: rotate(90deg);
+    top: 170px;
+    left: 0px;
+}
+.no4 {
+    transform: rotate(90deg);
+    top: 240px;
+    left: 0px;
+}
+.no5 {
+    transform: rotate(90deg);
+    top: 310px;
+    left: 0px;
+}
+.no6 {
+    transform: rotate(90deg);
+    top: 380px;
+    left: 0px;
+}
+.no7 {
+    transform: rotate(90deg);
+    top: 450px;
+    left: 0px;
+}
+.no8 {
+    transform: rotate(90deg);
+    top: 30px;
+    left: 225px;
+}
+.no9 {
+    transform: rotate(90deg);
+    top: 100px;
+    left: 225px;
+}
+.no10 {
+    transform: rotate(90deg);
+    top: 170px;
+    left: 225px;
+}
+.no11 {
+    transform: rotate(90deg);
+    top: 240px;
+    left: 225px;
+}
+.no12 {
+    transform: rotate(90deg);
+    top: 310px;
+    left: 225px;
+}
+.no13 {
+    transform: rotate(90deg);
+    top: 380px;
+    left: 225px;
+}
+.no14 {
+    transform: rotate(90deg);
+    top: 450px;
+    left: 225px;
+}
+.no15 {
+    transform: rotate(180deg);
+    top: 240px;
+    left: 50px;
+}
+.no16 {
+    transform: rotate(180deg);
+    top: 240px;
+    left: 120px;
+}
+.no17 {
+    transform: rotate(180deg);
+    top: 240px;
+    left: 190px;
+}
