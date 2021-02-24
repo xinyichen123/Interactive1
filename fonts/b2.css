@@ -16,7 +16,17 @@ body{
     background-color: black;
     border-radius: 40% 40% 40% 40% / 50% 50% 50% 50%;
     }
+* {
+ transition: all 1500ms ease;
+}
 
+.pointer:hover {
+    transform: translate(120px, 50%);
+    background: lightblue;
+}
+/*.pointer:hover {
+    transform: scale(2, 0.5);   
+}*/
 .no1 {
     transform: rotate(90deg);
     top: 30px;

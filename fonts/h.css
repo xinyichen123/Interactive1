@@ -9,6 +9,14 @@ body{
     background: lightgrey;
 }
 
+.line:hover {
+    transform: scale(0.5) translate(-50%, -50%);
+    background: #ffc107;
+}
+
+* {
+ transition: all 1500ms ease;
+}
 
 .line {
     width: 100px;

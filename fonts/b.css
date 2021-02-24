@@ -26,6 +26,22 @@ body{
     background: black;
     position: absolute;
 }
+.round:hover {
+    transform: scale(0.5) translate(-100%, -100%);
+    background: #ffc107;
+}
+.vertical-stroke:hover {
+    transform: scale(0.5) translate(-100%, -100%);
+    background: #ffc107;
+}
+.line:hover {
+    transform: scale(0.5) translate(-100%, -100%);
+    background: #ffc107;
+}
+
+* {
+ transition: all 1500ms ease;
+}
 
 .top {
     top: 39px;
