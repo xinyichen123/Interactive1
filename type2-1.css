@@ -1,0 +1,77 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+body {
+	background: red;	
+}
+
+h1 {
+	padding: 30px;
+	font-size: 100px;
+}
+/* navigation */
+
+nav {
+	padding: 20px;
+}
+
+/* stage */
+
+#showcase {
+	width: 10000px;
+	height: 10000px;
+	margin: auto;
+	position: relative;
+}
+/*#showcase {
+	width: 10000px;
+	height: 10000px;
+	margin: auto;
+	overflow: visible;
+	position: relative;
+	top: calc(50vh - 400px);
+}*/
+
+.type1{
+    width: 500px;
+    height: 700px;
+    position: fixed;
+    top: 200px;
+    left: 200px;
+
+}
+
+.type2{
+    width: 500px;
+    height: 700px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+
+/*img{
+	display: block;
+}*/
+
+/* images */
+
+svg:hover circle{
+	fill: blue ;
+	
+}
+
+svg:hover path{
+	fill: blue ;
+	
+}
+
+/*.type:hover {
+	transition-property: all;
+    transition-duration: 1000ms;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}*/

@@ -1,0 +1,20 @@
+<svg width="217" height="220" viewBox="0 0 217 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<rect width="217" height="220" fill="none"/>
+<circle cx="61.0279" cy="44.0172" r="25" transform="rotate(-65.5038 61.0279 44.0172)" fill="#080809"/>
+<circle cx="85.2698" cy="76.2106" r="25" transform="rotate(-65.5038 85.2698 76.2106)" fill="#080809"/>
+<circle cx="107.917" cy="108.508" r="25" transform="rotate(-65.5038 107.917 108.508)" fill="#080809"/>
+<circle cx="130.564" cy="140.805" r="25" transform="rotate(-65.5038 130.564 140.805)" fill="#080809"/>
+<circle cx="151.391" cy="172.273" r="25" transform="rotate(-65.5038 151.391 172.273)" fill="#080809"/>
+<circle r="25" transform="matrix(-0.414632 -0.909989 -0.909989 0.414632 157.391 39.0172)" fill="#080809"/>
+<circle r="25" transform="matrix(-0.414632 -0.909989 -0.909989 0.414632 133.149 71.2106)" fill="#080809"/>
+<circle r="25" transform="matrix(-0.414632 -0.909989 -0.909989 0.414632 110.502 103.508)" fill="#080809"/>
+<circle r="25" transform="matrix(-0.414632 -0.909989 -0.909989 0.414632 87.8549 135.805)" fill="#080809"/>
+<circle r="25" transform="matrix(-0.414632 -0.909989 -0.909989 0.414632 67.028 167.273)" fill="#080809"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="217" height="220" fill="white"/>
+</clipPath>
+</defs>
+</svg>
