@@ -1,19 +1,21 @@
 body{
-
+    background: #00feff; 
+    color: #bb0e01;
+    font-size: 40px;
 }
 
 .bounding-box{
     position: relative;
     width: 400px;
     height: 600px;
-    background: lightgrey;
+    background: #00feff;
 }
 
 .pointer {
     position: absolute;
     width: 100px;
     height: 70px;
-    background-color: white;
+    background-color: #a9a9fb5e;
     border-radius: 40% 40% 40% 40% / 50% 50% 50% 50%;
     z-index: 1;
     }
@@ -25,9 +27,18 @@ body{
     background-color: #06060654;
     border-radius: 40% 40% 40% 40% / 50% 50% 50% 50%;
     }
-
+* {
+ transition: all 1500ms ease;
+ filter: drop-shadow(1px 1px 2px blue) invert(100%);
+}
 .pointer:hover {
-    background: yellow; 
+    transition-property: margin-right, color;
+    background: red;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px 100px 100px 100px;
+    transition-duration: 1s;
     filter: blur(50px);
 }
 

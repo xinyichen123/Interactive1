@@ -1,0 +1,1470 @@
+*{
+	margin-left: 100px;
+	margin-top: 100px;
+}
+
+body{
+	background: #d5e8b0;
+}
+
+
+.s-bounding-box{
+    position: relative;
+    margin-top: 200px;
+    margin-left: 50px;
+    width: 350px;
+    height: 500px;
+    background: #d5e8b0;
+}
+
+		.s1{
+			position: absolute;
+			margin-left: 200px;
+			margin-top: -500px;    
+		    height:50px; 
+		    width: 100px; 
+		    border-radius: 150px 150px 0 0; 
+		    background-color: red; 
+		    transition-duration: 1s
+		}
+
+				.active1{
+					position: absolute;  
+				    height:50px; 
+				    width: 100px; 
+				    border-radius: 0 0 0 0; 
+				    background-color:black; 
+				    transition-duration: 0.5s ease
+				}
+
+				.active2{
+					position: absolute;  
+				    height:50px; 
+				    width: 100px; 
+				    border-radius: 150px 150px 0 0; 
+				    background-color:red; 
+				    transition-duration: 0.5s ease
+				}
+
+				
+		.s2{
+			position: absolute;
+			width:50px;
+			height:50px;
+			margin-left:100px;
+			margin-top: -150px;
+			background-color:red;
+			transition-duration: 1s
+		}
+
+				.s2:hover{
+					position: absolute;
+					width: 50px;
+				    height: 50px;
+				    background: black;
+				    border-radius: 100px 100px 100px 100px;
+				    transition-duration: 1s
+				}
+		.s3{
+			position: absolute;
+			width: 50px;
+		    height: 50px;
+		    background: black;
+		    margin-left: 300px;
+		    margin-top:-450px;
+		    border-radius: 0 100px 0 0;
+		    transition-duration: 1s
+		}
+
+				.s3:hover{
+					position: absolute;
+					width: 50px;
+				    height: 50px;
+				    background: red;
+				    border-radius: 100px 100px 100px 100px;
+				    transition-duration: 1s
+				}
+
+		.s4{
+			position: absolute;
+			width:50px;
+			height:50px;
+			margin-left:150px;
+			margin-top: -300px;
+			background-color:black;
+			transition-duration: 1s;
+		}
+
+				.s4:hover{
+					position: absolute;
+					width: 50px;
+				    height: 50px;
+				    background: red;
+				    border-radius: 100px 100px 100px 100px;
+				    transition-duration: .5s
+				}
+
+		.s5{
+			position: absolute;
+			width:50px;
+			height:100px;
+			margin-left:100px;
+			margin-top: -400px;
+			border-radius: 100px 0 0px 0;
+			background-color:red;
+			transition-duration: 1s
+		}
+
+				.active3{
+					position: absolute;
+					width: 50px;
+				    height: 100px;
+				    background: black;
+				    border-radius: 0 0 0 0;
+				    transition-duration: 1s 
+				}
+
+				.active4{
+				position: absolute;
+				width: 50px;
+				height: 100px;
+				background: red;
+				border-radius: 100px 0 0 0;
+				transition-duration: 1s 
+				}
+
+		.s6{
+			position: absolute;
+			width:50px;
+			height:50px;
+			margin-left:150px;
+			margin-top: -450px;
+			background-color:black;
+			transition-duration: 1s
+		}
+
+				.s6:hover{
+					position: absolute;
+					width: 50px;
+				    height: 50px;
+				    background: red;
+				    border-radius: 100px 100px 100px 100px;
+				    transition-duration: .5s
+				}
+
+		.s7{
+			position: absolute;
+			width: 50px;
+		    height: 50px;
+		    background: black;
+		    margin-left: 50px;
+		    margin-top:-200px;
+		    border-radius: 0 100px 0 0;
+		    transition-duration: 1s
+		}
+
+				.active13{
+				position: absolute;
+				width: 50px;
+				height: 50px;
+				background: red;
+				border-radius: 100px 100px 100px 100px;
+				transition-duration: 1s 
+				}
+
+				.active14{
+				position: absolute;
+				width: 50px;
+				height: 50px;
+				background: black;
+				border-radius: 0 100px 0 0;
+				transition-duration: 1s 
+				}
+		.s8{
+			position: absolute;
+			width: 50px;
+		    height: 50px;
+		    background: black;
+		    margin-left: 150px;
+		    margin-top:-100px;
+		    border-radius: 0 100px 0 0;
+		    transition-duration: 1s
+		}
+
+				.active11{
+				position: absolute;
+				width: 50px;
+				height: 50px;
+				background: red;
+				border-radius: 100px 100px 100px 100px;
+				transition-duration: 1s 
+				}
+
+				.active12{
+				position: absolute;
+				width: 50px;
+				height: 50px;
+				background: black;
+				border-radius: 0 100px 0 0;
+				transition-duration: 1s 
+				}
+
+
+		.s9{
+			position: absolute;
+			margin-left: 200px;
+			margin-top: -50px;    
+		    height:50px; 
+		    width: 100px; 
+		    border-radius: 0 0 150px 150px; 
+		    background-color: red;
+		    transition-duration: 0.5s
+		}
+
+				.s9:hover{
+					position: absolute;  
+				    height:50px; 
+				    width: 100px; 
+				    border-radius: 0 0 0 0; 
+				    background-color:black; 
+				    transition-duration: 0.5s
+				}
+
+		.s10{
+			position: absolute;
+			width: 50px;
+		    height: 50px;
+		    background: black;
+		    margin-left: 300px;
+		    margin-top:-100px;
+		    border-radius: 100px 0 0 0;
+		    transition-duration: 0.5s
+		}
+
+				.active9{
+				position: absolute;
+				width: 50px;
+				height: 50px;
+				background: red;
+				border-radius: 100px 100px 100px 100px;
+				transition-duration: 1s 
+				}
+
+				.active10{
+				position: absolute;
+				width: 50px;
+				height: 50px;
+				background: black;
+				border-radius: 100px 0 0 0;
+				transition-duration: 1s 
+				}
+
+		.s11{
+			position: absolute;
+			margin-left: 350px;
+			margin-top: -200px;    
+		    height:100px; 
+		    width: 50px; 
+		    border-radius: 0 150px 150px 0; 
+		    background-color: red; 
+		    transition-duration: 1s;
+		}
+
+				.s11:hover{
+					position: absolute;  
+				    height:100px; 
+				    width: 50px; 
+				    border-radius: 0 0 0 0; 
+				    background-color:black; 
+				    transition-duration: 0.5s
+				}
+
+		.s12{
+			position: absolute;
+			width: 50px;
+		    height: 50px;
+		    background: black;
+		    margin-left: 200px;
+		    margin-top:-250px;
+		    border-radius: 0 0 0 100px;
+		    transition-duration: 1s
+		}
+
+				.active5{
+				position: absolute;
+				width: 50px;
+				height: 50px;
+				background: red;
+				border-radius: 100px 100px 100px 100px;
+				transition-duration: 1s 
+				}
+
+				.active6{
+				position: absolute;
+				width: 50px;
+				height: 50px;
+				background: red;
+				border-radius: 0 0 0 100px;
+				transition-duration: 1s 
+				}
+
+		.s13{
+			position: absolute;
+			width: 50px;
+		    height: 50px;
+		    background: black;
+		    margin-left: 250px;
+		    margin-top:-300px;
+		    border-radius: 0 100px 0 0;
+		    transition-duration: 1s
+		}
+
+				.s13:hover{
+					position: absolute;
+					width: 50px;
+				    height: 50px;
+				    background: red;
+				    border-radius: 100px 100px 100px 100px;
+				    transition-duration: 0.5s
+				}
+
+		.s14{
+			position: absolute;
+			width: 50px;
+		    height: 50px;
+		    background: black;
+		    margin-left: 300px;
+		    margin-top:-250px;
+		    border-radius: 0 100px 0 0;
+		    transition-duration: 1s
+		}
+
+				.active7{
+				position: absolute;
+				width: 50px;
+				height: 50px;
+				background: red;
+				border-radius: 100px 100px 100px 100px;
+				transition-duration: 1s 
+				}
+
+				.active8{
+				position: absolute;
+				width: 50px;
+				height: 50px;
+				background: black;
+				border-radius: 0100px 0 0;
+				transition-duration: 1s 
+				}
+
+.p-bounding-box{
+
+    position: relative;
+    margin-top: -500px;
+    margin-left: 500px;
+    width: 350px;
+    height: 500px;
+    background: #d5e8b0;
+}
+
+		.p1{
+			position: absolute;
+			width: 50px;
+		    height: 50px;
+		    background: black;
+		    margin-left: 500px;
+		    margin-top:-50px;
+		    border-radius: 100px 100px 100px 100px;
+		    transition-duration: 1s
+		}
+
+				.active15{
+					position: absolute;
+					width:50px;
+					height:50px;
+					border-radius: 100px 0 0 0;
+					background-color:red;
+					transition-duration: 0.5s
+				}
+
+				.active16{
+					position: absolute;
+					width:50px;
+					height:50px;
+					border-radius: 100px 100px 100px 100px;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+				
+
+		.p2{
+			position: absolute;
+			width:50px;
+			height:50px;
+			margin-left:550px;
+			margin-top: -50px;
+			background-color:red;
+			transition-duration: 1s
+		}
+
+				.p2:hover{
+					position: absolute;
+					width: 50px;
+				    height: 50px;
+				    background: black;
+					border-radius: 0 0  100px 0;
+				    transition-duration: 1s
+					}
+
+		.p3{
+			position: absolute;
+			width:50px;
+			height:50px;
+			margin-left:550px;
+			margin-top: -100px;
+			background-color:black;
+			transition-duration: 1s
+		}
+
+				.active17{
+					position: absolute;
+					width: 50px;
+					height: 50px;
+					background: red;
+					border-radius: 0 100px 0 0;
+					transition-duration: 1s
+				}
+
+				.active18{
+					position: absolute;
+					width: 50px;
+					height: 50px;
+					background: black;
+					transition-duration: 1s
+				}
+
+		.p4{
+			position: absolute;
+			width:50px;
+			height:50px;
+			margin-left:500px;
+			margin-top: -150px;
+			background-color:red;
+			transition-duration: 1s
+		}
+
+				.p4:hover{
+					position: absolute;
+					width: 50px;
+				    height: 50px;
+				    background: black;
+					border-radius: 0 0 0 100px;
+				    transition-duration: 1s
+		}
+
+		.p5{
+			position: absolute;
+			width:50px;
+			height:50px;
+			margin-left:500px;
+			margin-top: -200px;
+			background-color:black;
+			transition-duration: 1s
+		}
+
+				.active19{
+					position: absolute;
+					width: 50px;
+				    height: 50px;
+				    background: red;
+					border-radius: 100px 0 0 0;
+				    transition-duration: 1s
+		}
+
+			.active20{
+					position: absolute;
+					width: 50px;
+				    height: 50px;
+				    background: black;
+				    transition-duration: 1s
+		}
+
+		.p6{
+			position: absolute;
+			width: 50px;
+		    height: 50px;
+		    background: black;
+		    margin-left: 550px;
+		    margin-top:-250px;
+		    border-radius: 100px 100px 100px 100px;
+		    transition-duration: 1s;
+		}
+
+				.p6:hover{
+					position: absolute;
+					border-radius: 0 0 0 0;
+					background-color:red;
+					transition-duration: 0.5s;
+				}
+
+		.p7{
+			position: absolute;
+			width: 50px;
+		    height: 50px;
+		    background: red;
+		    margin-left: 600px;
+		    margin-top:-250px;
+		    border-radius: 100px 100px 100px 100px;
+		    transition-duration: 1s;
+		}
+
+				.active21{
+					position: absolute;
+					border-radius: 0 0 0 0;
+					background-color:black;
+					transition-duration: 0.5s;
+				}
+
+				.active22{
+					position: absolute;
+					border-radius: 100px 100px 100px 100px;
+					background-color:red;
+					transition-duration: 0.5s;
+				}
+
+
+
+		.p8{
+			position: absolute;
+			width: 50px;
+		    height: 50px;
+		    background:black;
+		    margin-left: 650px;
+		    margin-top:-300px;
+		    border-radius: 100px 100px 100px 100px;
+		    transition-duration: 1s;
+		}
+
+				.p8:hover{
+					position: absolute;
+					border-radius: 100px 0 0 0;
+					background-color:red;
+					transition-duration: 0.5s
+				}
+
+		.p9{
+			position: absolute;
+			width: 50px;
+		    height: 50px;
+		    background: red;
+		    margin-left: 700px;
+		    margin-top:-250px;
+		    border-radius: 100px 100px 100px 100px;
+		    transition-duration: 1s
+		}
+
+				.active23{
+					position: absolute;
+					border-radius: 0 0 0 100px;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+				.active24{
+					position: absolute;
+					border-radius: 100px 100px 100px 100px;
+					background-color:red;
+					transition-duration: 0.5s
+				}
+
+
+
+		.p10{
+			position: absolute;
+			width: 50px;
+		    height: 50px;
+		    background:black;
+		    margin-left: 750px;
+		    margin-top:-300px;
+		    border-radius: 100px 100px 100px 100px;
+		    transition-duration: 1s
+		}
+
+				.p10:hover{
+					position: absolute;
+					border-radius: 0 0 100px 0;
+					background-color:red;
+					transition-duration: 0.5s
+				}
+
+		.p11{
+			position: absolute;
+			width: 50px;
+		    height: 50px;
+		    background:red;
+		    margin-left: 800px;
+		    margin-top:-350px;
+		    border-radius: 100px 100px 100px 100px;
+			transition-duration: 1s
+		}
+
+				.active25{
+					position: absolute;
+					border-radius: 0 100px 0 0;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+				.active26{
+					position: absolute;
+					border-radius: 100px 100px 100px 100px;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+		.p12{
+			position: absolute;
+			width: 50px;
+		    height: 50px;
+		    background: black;
+		    margin-left: 750px;
+		    margin-top:-400px;
+		    border-radius: 100px 100px 100px 100px;
+		    transition-duration: 1s
+		}
+
+				.p12:hover{
+					position: absolute;
+					border-radius: 0 0 0 0;
+					background-color:red;
+					transition-duration: 0.5s
+				}
+
+		.p13{
+			position: absolute;
+			width: 50px;
+		    height: 50px;
+		    background: red;
+		    margin-left: 700px;
+		    margin-top:-450px;
+		    border-radius: 100px 100px 100px 100px;
+		    transition-duration: 1s
+		}
+
+				.active27{ 
+					position: absolute;
+					border-radius: 0 0 0 100px;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+				.active28{ 
+					position: absolute;
+					border-radius: 100px 100px 100px 100px;
+					background-color:red;
+					transition-duration: 0.5s
+				}
+
+
+		.p14{
+			position: absolute;
+			width: 50px;
+		    height: 50px;
+		    background: black;
+		    margin-left: 650px;
+		    margin-top:-500px;
+		    border-radius: 100px 100px 100px 100px;
+		    transition-duration: 1s
+		}
+
+				.p14:hover{
+					position: absolute;
+					border-radius: 100px 0 0 0;
+					background-color:red;
+					transition-duration: 0.5s
+				}
+
+		.p15{
+			position: absolute;
+			width: 50px;
+		    height: 50px;
+		    background: red;
+		    margin-left: 600px;
+		    margin-top:-450px;
+		    border-radius: 100px 100px 100px 100px;
+		    transition-duration: 1s
+		}
+
+				.active29{
+					position: absolute;
+					border-radius: 0 0 100px 0;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+				.active30{ 
+					position: absolute;
+					border-radius: 100px 100px 100px 100px;
+					background-color:red;
+					transition-duration: 0.5s
+				}
+
+
+		.p16{
+			position: absolute;
+			width: 50px;
+		    height: 50px;
+		    background: black;
+		    margin-left: 550px;
+		    margin-top:-500px;
+		    border-radius: 100px 100px 100px 100px;
+		    transition-duration: 1s
+		}
+
+				.p16:hover{
+					position: absolute;
+					border-radius: 0 0 0 0;
+					background-color:red;
+					transition-duration: 0.5s
+				}
+
+		.p17{
+			position: absolute;
+			width: 50px;
+		    height: 200px;
+		    background: red;
+		    margin-left: 500px;
+		    margin-top: -450px;
+		    border-radius: 150px 150px 150px 150px;
+		    transition-duration: 1s
+		}
+
+				.active31{
+					position: absolute;  
+				    border-radius: 0 0 0 150px; 
+				    background-color:black; 
+				    transition-duration: 0.5s
+				}
+
+				.active32{ 
+					position: absolute;
+					border-radius: 150px 150px 150px 150px;
+					background-color:red;
+					transition-duration: 0.5s
+				}
+
+.l-bounding-box{
+
+    position: relative;
+    margin-top: -500px;
+    margin-left: 950px;
+    width: 400px;
+    height: 500px;
+    background: #d5e8b0;
+}
+
+		.l1{
+			position: absolute;
+			margin-left: 950px;
+			margin-top: -450px;    
+		    height:100px; 
+		    width: 50px; 
+		    border-radius: 150px 0 0 150px; 
+		    background-color: red; 
+		    transition-duration: 1s
+		}
+
+				.active33{
+					position: absolute;
+					border-radius: 0 0 0 0;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+				.active34{
+					position: absolute;
+					border-radius: 150px 0 0 150px;
+					background-color:red;
+					transition-duration: 0.5s
+				}
+
+		.l2{
+			position: absolute;
+			width: 50px;
+		    height: 50px;
+		    background: black;
+		    margin-left: 1000px;
+		    margin-top:-500px;
+		    border-radius: 0 100px 0 0;
+		    transition-duration: 1s
+		}
+
+				.l2:hover{
+					position: absolute;
+					border-radius: 100px 100px 100px 100px;
+					background-color:red;
+					transition-duration: 0.5s
+				}
+
+		.l3{
+			position: absolute;
+			margin-left: 1000px;
+			margin-top: -350px;    
+		    height:100px; 
+		    width: 50px; 
+		    border-radius:0 150px 150px 0; 
+		    background-color: black;
+		    transition-duration: 1s
+		}
+
+				.l3:hover{
+					position: absolute;
+					border-radius: 0 0 0 0;
+					background-color:red;
+					transition-duration: 0.5s
+				}
+
+		.l4{
+			position: absolute;
+			width: 50px;
+		    height: 50px;
+		    background: red;
+		    margin-left: 950px;
+		    margin-top:-250px;
+		    border-radius: 100px 0 0 0;
+		    transition-duration: 1s
+		}
+
+				.active35{
+					position: absolute;
+					border-radius: 100px 100px 100px 100px;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+				.active36{
+					position: absolute;
+					border-radius: 100px 0 0 0;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+
+
+		.l5{
+			position: absolute;
+			width: 50px;
+		    height: 50px;
+		    background: black;
+		    margin-left: 1000px;
+		    margin-top:-200px;
+		    border-radius: 0 0 100px 0;
+		    transition-duration: 1s
+		}
+				.l5:hover{
+					position: absolute;
+					border-radius: 100px 100px 100px 100px;
+					background-color:red;
+					transition-duration: 0.5s
+				}
+
+		.l6{
+			position: absolute;
+			width:50px;
+			height:50px;
+			margin-left:950px;
+			margin-top: -150px;
+			background-color:red;
+			transition-duration: 0.5s
+		}
+
+				.active37{
+					position: absolute;
+					border-radius: 100px 100px 100px 100px;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+				.active38{
+					position: absolute;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+		.l7{
+			position: absolute;
+			width: 50px;
+		    height: 50px;
+		    background: black;
+		    margin-left: 1000px;
+		    margin-top:-100px;
+		    border-radius: 0 0 0 100px;
+		    transition-duration: 1s
+		}
+
+				.l7:hover{
+					position: absolute;
+					border-radius: 100px 100px 100px 100px;
+					background-color:red;
+					transition-duration: 0.5s
+				}
+
+		.l8{
+			position: absolute;
+			width:50px;
+			height:50px;
+			margin-left:1050px;
+			margin-top: -50px;
+			background-color:red;
+			transition-duration: 0.5s
+		}
+
+				.active39{
+					position: absolute;
+					border-radius: 100px 100px 100px 100px;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+				.active40{
+					position: absolute;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+		.l9{
+			position: absolute;
+			margin-left: 1100px;
+			margin-top: -100px;    
+		    height:50px; 
+		    width: 100px; 
+		    border-radius: 150px 150px 0 0; 
+		    background-color: black;
+		    transition-duration: 1s 
+		}
+
+				.l9:hover{
+					position: absolute;
+					border-radius: 0 0 0 0;
+					background-color:red;
+					transition-duration: 0.5s
+				}
+
+		.l10{
+			position: absolute;
+			margin-left: 1200px;
+			margin-top: -50px;    
+		    height:50px; 
+		    width: 100px; 
+		    border-radius:0 0 150px 150px; 
+		    background-color: black;
+		    transition-duration: 1s
+		}
+
+				.active41{
+					position: absolute;
+					border-radius: 0 0 0 0;
+					background-color:red;
+					transition-duration: 0.5s
+				}
+
+				.active42{
+					position: absolute;
+					border-radius: 0 0 150px 150px;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+		.l11{
+			position: absolute;
+			width: 50px;
+		    height: 50px;
+		    background: black;
+		    margin-left: 1300px;
+		    margin-top:-100px;
+		    border-radius: 0 0 100px 0;
+		    transition-duration: 1s
+		}
+
+				.l11:hover{
+					position: absolute;
+					border-radius:100px 100px 100px 100px;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+.i-bounding-box{
+	position: relative;
+    margin-top: -500px;
+    margin-left: 1450px;
+    width: 100px;
+    height: 500px;
+    background: #d5e8b0;
+}
+
+		.i1{
+			position: absolute;
+			width: 50px;
+		    height: 50px;
+		    background: black;
+		    margin-left: 1450px;
+		    margin-top:-500px;
+		    border-radius: 100px 100px 100px 100px;
+		    transition-duration: 1s
+		}
+
+				.active43{
+					position: absolute;
+					border-radius: 0 100px 0 0;
+					background-color:red;
+					transition-duration: 0.5s
+				}
+
+				.active44{
+					position: absolute;
+					border-radius:100px 100px 100px 100px;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+		.i2{
+			position: absolute;
+			width: 50px;
+		    height: 50px;
+		    background: red;
+		    margin-left: 1500px;
+		    margin-top:-450px;
+		    border-radius: 100px 100px 100px 100px;
+		    transition-duration: 1s
+		}
+				.i2:hover{
+					position: absolute;
+					border-radius:0 0 0 0;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+		.i3{
+			position: absolute;
+			width:50px;
+			height:50px;
+			margin-left:1450px;
+			margin-top: -400px;
+			background-color:black;
+			transition-duration: 1s
+		}
+			.active45{
+					position: absolute;
+					border-radius:100px 0 0 0;
+					background-color:red;
+					transition-duration: 0.5s
+				}
+
+			.active46{
+					position: absolute;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+		.i4{
+			position: absolute;
+			width:50px;
+			height:50px;
+			margin-left:1450px;
+			margin-top: -350px;
+			border-radius: 0px 0 0px 0;
+			background-color:red;
+			transition-duration: 1s
+		}
+				.i4:hover{
+					position: absolute;
+					border-radius:0 0 0 100px;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+		.i5{
+			position: absolute;
+			width:50px;
+			height:50px;
+			margin-left:1500px;
+			margin-top: -300px;
+			background-color:black;
+			transition-duration: 1s
+		}
+			.active47{
+					position: absolute;
+					border-radius:0 100px 0 0;
+					background-color:red;
+					transition-duration: 0.5s
+				}
+
+			.active48{
+					position: absolute;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+		.i6{
+			position: absolute;
+			width:50px;
+			height:50px;
+			margin-left:1500px;
+			margin-top: -250px;
+			border-radius: 0px 0 0px 0;
+			background-color:red;
+			transition-duration: 1s
+		}
+
+				.i6:hover{
+					position: absolute;
+					border-radius:0 0 100px 0;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+		.i7{
+			position: absolute;
+			width:50px;
+			height:50px;
+			margin-left:1450px;
+			margin-top: -200px;
+			background-color:black;
+			transition-duration: 1s
+		}
+				.active49{
+					position: absolute;
+					border-radius:100px 0 0 0;
+					background-color:red;
+					transition-duration: 0.5s
+				}
+
+				.active50{
+					position: absolute;
+					background-color:red;
+					transition-duration: 0.5s
+				}
+
+		.i8{
+			position: absolute;
+			width:50px;
+			height:50px;
+			margin-left:1450px;
+			margin-top: -150px;
+			border-radius: 0px 0 0px 0;
+			background-color:red;
+			transition-duration: 1s
+		}
+
+				.i8:hover{
+					position: absolute;
+					border-radius:0 0 0 100px;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+		.i9{
+			position: absolute;
+			width: 50px;
+		    height: 50px;
+		    background: black;
+		    margin-left: 1500px;
+		    margin-top:-100px;
+		    border-radius: 100px 100px 100px 100px;
+		    transition-duration: 1s
+		}
+
+				.active51{
+					position: absolute;
+					border-radius:0 0 0 0;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+				.active52{
+					position: absolute;
+					border-radius:100px 100px 100px 100px;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+		.i10{
+			position: absolute;
+			width: 50px;
+		    height: 50px;
+		    background: red;
+		    margin-left: 1450px;
+		    margin-top:-50px;
+		    border-radius: 100px 100px 100px 100px;
+		    transition-duration: 1s
+		}
+
+			.i10:hover{
+					position: absolute;
+					border-radius:100px 0 0 0;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+.t-bounding-box{
+
+    position: relative;
+    margin-top: -500px;
+    margin-left: 1650px;
+    width: 400px;
+    height: 500px;
+    background: #d5e8b0;
+}
+
+		.t1{
+			position: absolute;
+			width: 50px;
+		    height: 50px;
+		    background: black;
+		    margin-left: 1650px;
+		    margin-top:-450px;
+		    border-radius: 0 0 100px 0;
+		    transition-duration: 1s
+		}
+
+				.active53{
+					position: absolute;
+					border-radius:100px 100px 100px 100px;
+					background-color:red;
+					transition-duration: 0.5s
+				}
+
+				.active54{
+					position: absolute;
+					border-radius:0 0 100px 0;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+		.t2{
+			position: absolute;
+			margin-left:1700px;
+			margin-top: -500px;
+			width:100px;
+			height:50px;
+			border-radius:0 100px 0px 0;
+			background-color:red;
+			transition-duration: 1s
+		}
+				.t2:hover{
+					position: absolute;
+					border-radius: 0 0 0 0;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+		.t4{
+			position: absolute;
+			width: 50px;
+		    height: 50px;
+		    background: red;
+		    margin-left: 1800px;
+		    margin-top:-550px;
+		    border-radius: 0 0 0 100px;
+		    transition-duration: 1s
+		}
+
+				.active55{
+					position: absolute;
+					border-radius:100px 100px 100px 100px;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+				.active56{
+					position: absolute;
+					border-radius:0 0 0 100px;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+		.t5{
+			position: absolute;
+			width: 50px;
+		    height: 50px;
+		    background: black;
+		    margin-left: 1850px;
+		    margin-top:-600px;
+		    border-radius: 100px 0 0 0;
+		    transition-duration: 1s
+		}
+
+				.t5:hover{
+					position: absolute;
+					border-radius:100px 100px 100px 100px;
+					background-color:red;
+					transition-duration: 0.5s
+				}
+
+		.t6{
+			position: absolute;
+			width: 50px;
+		    height: 50px;
+		    background: black;
+		    margin-left: 1900px;
+		    margin-top:-550px;
+		    border-radius: 0 0 0 100px;
+		    transition-duration: 1s
+		}
+				.active57{
+					position: absolute;
+					border-radius:100px 100px 100px 100px;
+					background-color:red;
+					transition-duration: 0.5s
+				}
+
+				.active58{
+					position: absolute;
+					border-radius: 0 0 0 100px;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+		.t7{
+			position: absolute;
+			width: 50px;
+		    height: 50px;
+		    background: red;
+		    margin-left: 1950px;
+		    margin-top:-600px;
+		    border-radius: 0 100px 0 0;
+		    transition-duration: 1s
+		}
+				.t7:hover{
+					position: absolute;
+					border-radius:100px 100px 100px 100px;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+		.t8{
+			position: absolute;
+			width:50px;
+			height:50px;
+			margin-left:2000px;
+			margin-top: -550px;
+			background-color:black;
+			transition-duration: 0.5s
+		}
+
+				.active59{
+					position: absolute;
+					border-radius:100px 100px 100px 100px;
+					background-color:red;
+					transition-duration: 0.5s
+				}
+
+				.active60{
+					position: absolute;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+		.t9{
+			position: absolute;
+			margin-left: 1800px;
+			margin-top: -500px;    
+		    height:100px; 
+		    width: 50px; 
+		    border-radius: 150px 0 0 150px;
+		    background-color: black; 
+		    transition-duration: 1s
+		}
+				.t9:hover{
+					position: absolute;
+					border-radius: 0 0 0 0;
+					background-color:red;
+					transition-duration: 0.5s
+				}
+
+		.t10{
+			position: absolute;
+			margin-left: 1850px;
+			margin-top: -400px;    
+		    height:100px; 
+		    width: 50px; 
+		    border-radius: 0 150px 150px 0; 
+		    background-color: red;
+		    transition-duration: 1s
+		}
+				.active61{
+					position: absolute;
+					border-radius:0 0 0 0;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+				.active62{
+					position: absolute;
+					border-radius:0 150px 150px 0;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+		
+		.t11{
+			position: absolute;
+			width: 50px;
+		    height: 50px;
+		    background: red;
+		    margin-left: 1800px;
+		    margin-top:-300px;
+		    border-radius: 0 0 0 100px;
+		    transition-duration: 1s
+		}
+				.t11:hover{
+					position: absolute;
+					border-radius:100px 100px 100px 100px;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+
+		.t12{
+			position: absolute;
+			margin-left: 1850px;
+			margin-top: -250px;    
+		    height:100px; 
+		    width: 50px; 
+		    border-radius: 0 150px 150px 0; 
+		    background-color: red; 
+		    transition-duration: 1s
+		}
+				.active63{
+					position: absolute;
+					border-radius:0 0 0 0;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+
+				.active64{
+					position: absolute;
+					border-radius:0 150px 150px 0;
+					background-color:black;
+					transition-duration: 0.5s
+				}
+		
+		.t13{
+			position: absolute;
+			width: 50px;
+		    height: 50px;
+		    background: black;
+		    margin-left: 1800px;
+		    margin-top:-150px;
+		    border-radius: 100px 0 0;
+		    transition-duration: 1s
+		}
+
+			.t13:hover{
+					position: absolute;
+					border-radius:100px 100px 100px 100px;
+					background-color:red;
+					transition-duration: 0.5s
+				}
+
+ 
+
