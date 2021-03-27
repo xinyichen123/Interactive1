@@ -1,0 +1,24 @@
+@font-face {
+	font-family: "Messapia-Bold";
+	src: url("font/Messapia-Bold.woff") format("woff"),
+	     url("font/Messapia-Bold.woff2") format("woff2");
+
+}
+
+body {
+	font-family: Messapia-Bold;
+ 	background: #ffc107; 
+ 	color: #bb0e01;
+ 	font-size: 40px;
+}
+ul {
+	border-size: 24px;
+}
+li {
+	list-style-type: lower-alpha;
+	list-style-position: inside;
+}
+
+p {
+	background: lightyellow;
+}
