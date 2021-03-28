@@ -1,24 +1,77 @@
-@font-face {
-	font-family: "Messapia-Bold";
-	src: url("font/Messapia-Bold.woff") format("woff"),
-	     url("font/Messapia-Bold.woff2") format("woff2");
-
+*{
+	margin: 0;
+	padding: 0;
+	background: #D9C6B0;
 }
 
 body {
-	font-family: Messapia-Bold;
- 	background: #ffc107; 
- 	color: #bb0e01;
- 	font-size: 40px;
-}
-ul {
-	border-size: 24px;
-}
-li {
-	list-style-type: lower-alpha;
-	list-style-position: inside;
+	font-size: 44px;
 }
 
-p {
-	background: lightyellow;
+#container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	min-width: 100vw;
+	
 }
+
+#grid {
+	width: 2000px;
+	height: 2000px;
+	border: 10px #D9C6B0;
+
+
+	/* uncomment below to enable the grid */
+
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	
+}
+
+.item {
+	background: white;
+}
+
+/* uncomment below to alter the shape */
+
+#a {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background: #698C78;
+}
+#b {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background: #698C78;
+}
+#c {
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background: #365949;
+}
+
+#d {
+    grid-row-end: 5;
+    grid-column-start: 4;
+    grid-column-end: 1;
+    background: #526682;
+}
+
+
+/* uncomment below to adjust with a media query */
+
+@media screen and (max-width: 1000px) {
+	#a {
+		grid-row-start: 1;
+		grid-row-end: 2; 
+		grid-column-start: 1;
+		grid-column-end: 2;
+		background: red;
+	}
+}*/
