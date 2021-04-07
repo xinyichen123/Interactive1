@@ -6,7 +6,7 @@
 
 
 @font-face {
-  font-family: 'Syne Mono';
+  font-family: 'Baumans';
   src: url('SyneMono-Regular.ttf') format('truetype');
   font-style: normal;
 }
@@ -88,6 +88,7 @@ body {
 #pig0{
   height: 2140px;
   width: 30px;
+  fill: #9F722E;
 }
 #pig4{
   height: 2750px;
