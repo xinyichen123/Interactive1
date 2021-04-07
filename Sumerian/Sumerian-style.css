@@ -19,7 +19,7 @@ body {
 
 #grid {
 	width: 2000px;
-	height: 2000px;
+	height: 4000px;
 	border: 10px #D9C6B0;
 
 
@@ -42,18 +42,26 @@ body {
     grid-column-start: 1;
     grid-column-end: 4;
     background: #698C78;
+    width: 2000px;
+	height: 1000px;
+
 }
+
 #b {
     grid-row-start: 2;
     grid-column-start: 1;
     grid-column-end: 4;
     background: #698C78;
+    width: 2000px;
+	height: 1000px;
 }
 #c {
     grid-row-end: 4;
     grid-column-start: 1;
     grid-column-end: 4;
     background: #365949;
+    width: 2000px;
+	height: 1000px;
 }
 
 #d {
@@ -61,12 +69,14 @@ body {
     grid-column-start: 4;
     grid-column-end: 1;
     background: #526682;
+    width: 2000px;
+	height: 1000px;
 }
 
 
 /* uncomment below to adjust with a media query */
 
-@media screen and (max-width: 1000px) {
+/*@media screen and (max-width: 1000px) {
 	#a {
 		grid-row-start: 1;
 		grid-row-end: 2; 
