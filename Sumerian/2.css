@@ -22,6 +22,7 @@
   -webkit-text-stroke: 1px #555;
 }*/
 body {
+  margin: 40px;
   font-family: 'Syne Mono';
 }
 
@@ -42,19 +43,13 @@ body {
   grid-area: footer;
 }
 .background {
-  background-image: url(Sumerian1.png);
+  background-image: url(Sumerian.png);
   position: fixed;
   height: 100%;
   width: 100%;
-  opacity: 0.8;
-  z-index: 1;
-  transition: all 1500ms ease;
+  opacity: 0.7;
+  z-index: -1;
 }
-
-.background:hover {
-  background: transparent;
-}
-
 .wrapper {
   width: 600px;
   grid-gap: 0px;
@@ -79,18 +74,8 @@ body {
   right: 276px;
   background: transparent;
 }
-.location1{
-  position: absolute;
-  top: 710px;
-  right: 276px;
-  background: transparent;
-}
 #pig0{
-  height: 2140px;
-  width: 30px;
-}
-#pig4{
-  height: 2750px;
+  height: 2150px;
   width: 30px;
 }
 .shape:hover {
@@ -122,7 +107,6 @@ body {
 
 #pig1 {
   height: 350px;
-  background: transparent;
 }
 
 #pig2 {
@@ -176,7 +160,7 @@ body {
 .topright {
   position: absolute;
   top: 320px;
-  right: 190px;
+  right: 140px;
 }
 
 .bottomleft {
