@@ -11,15 +11,7 @@
     font-display: swap;
 }
 
-@font-face {
-	font-family: 'Syne Mono';
-  	src: url('SyneMono-Regular.ttf') format('truetype');
-}
 
-@font-face {
-	font-family: 'Syne Mono';
-  	src: url('SyneMono-Regular.ttf') format('truetype');
-}
 
 
 
@@ -28,10 +20,19 @@
 	height: 100vh;
 	border: 0px solid #ffdfdf;
     display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: 0fr 0fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: max-content;
 	grid-gap: 10px;
 	
+}
+
+.background {
+  background-image: url(Sumerian1.png);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  transition: all 1500ms ease;
 }
 
 section{
@@ -41,14 +42,9 @@ section{
 }
 
 section img {
-	position: absolute;
-	z-index: -1;
-	width: 100%;
-	height: 100%;
 	opacity: 0.7;
 	pointer-events: none;
 	filter: blur(4px);
-	animation-timing-function: 
 }
 
 
@@ -56,15 +52,8 @@ section img {
 section h3:hover {
 	filter: blur(10px);
 	transform: scale(1.2);
+	transition: all 1000ms ease;
 
-}
-
-
-section h3:hover ~ h3{
-
-	filter: blur(0px);
-	transform: scale(1.2);
-	transition: 3s;
 }
 
 
@@ -74,55 +63,23 @@ section h3 {
 	grid-row-end: 6;
 	grid-column-start: 6;
 	grid-column-end: 12;
-	background: none;
-	font-size: 6em;
-	font-family: Syne Mono;
 	text-transform: uppercase;
 	z-index: 2;
 	transition: 3s;
 	margin: 59px;
-	padding: 0;
 	cursor: pointer;
 	filter: drop-shadow(-3px -3px 2px rgba(255, 255, 255, 0.3))
 	        drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2))
-	        drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.2));
+	        drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.2));*/
+
 }
 
 section h3{
-	grid-row-start: 5;
-	grid-row-end: 6;
-	grid-column-start: 5;
-	grid-column-end: 7;
-	background: none;
-	margin: 1px;
-	padding: 0;
 	font-size: 9em;
 	font-family: Syne Mono;
 	word-spacing: 1px;
-	filter: blur(5px);
-	z-index: 2;
-	filter: drop-shadow(-3px -3px 2px rgba(255, 255, 255, 0.3))
-	        drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2))
-	        drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.2));
-}
-/*#d:hover {
-	filter: blur(0px);
-	transition: 1s;
 }
 
-
-#d {
-	grid-row-start: 11;
-	grid-row-end: 11; 
-	grid-column-start: 4;
-	grid-column-end: 12;
-	background: none;
-	font-size: 17px;
-	text-align: center;
-	filter: blur(30px);
-	cursor: pointer;
-	font-family: Geostar Fill;
-}*/
 
 li{
 	list-style: none;
