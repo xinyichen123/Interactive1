@@ -1,8 +1,7 @@
 @font-face {
-	font-family: 'Baumans';
-  	src: url('Baumans-Regular.ttf') format('truetype');
-  	font-style: normal;
-
+ font-family: 'Baumans';
+ src: url('Baumans-Regular.woff') format("woff"),
+      url("Baumans-Regular.woff2") format("woff2");
 }
 
 body {
