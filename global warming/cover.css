@@ -59,8 +59,9 @@ section h3{
 }
 
 
+
 li{
-	list-style: none;
+	list-style-type: none;
 }
 
 li a {

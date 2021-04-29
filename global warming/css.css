@@ -1,7 +1,7 @@
 
 @font-face {
   font-family: 'BebasNeue';
-  src: url('BebasNeue-Regular.woff') format("woff"),
+  src: url('../global warming/BebasNeue-Regular.woff') format("woff"),
          url("BebasNeue-Regular.woff2") format("woff2");
     font-style: normal;
     font-display: swap;
@@ -28,6 +28,7 @@ nav {
 
 .content {
     grid-area: content;
+    font-size: 80%;
 }
 
 .header {
@@ -37,10 +38,10 @@ nav {
     grid-area: footer;
 }
 
-  .wrapper {
+.wrapper {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: 120px 120px 120px;
+    grid-template-columns: 240px 510px 150px;
     grid-template-areas:
     "....... header header"
     "sidebar content content"
@@ -52,26 +53,41 @@ nav {
   height: 500px;
 }
 .location1{
-  position: absolute;
-    top: 90px;
-    right: 1000px;
+  position: relative;
+    /*top: 60px;
+    right: 1000px;*/
+    margin-left: -10px;
+    margin-top: -282px;
+    /*margin-left: 1068px;
+    margin-top: -298px;*/
     background: transparent;
     filter: drop-shadow(-3px -3px 2px #FFA800)
           drop-shadow(5px 5px 5px #FFA800)
           drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.2));
 }
 
-
+#pig{
+     width: 405px;
+}
+.location{
+  position: relative;
+    /*top: 60px;
+    right: 1000px;*/
+    margin-left: 938px;
+    margin-top: 32px;
+    /*margin-left: -10px;
+    margin-top: -212px;*/
+ }
 .box {
   background-color: #FFF500;
   color: #6B9EFF;
   border-radius: 5px;
   padding: 10px;
-  font-size: 60%;
 }
 .header,
 .footer {
   background-color: #FFF500;
+  font-size: 260%;
 }
 .sidebar{
   background-color: #FFF500;

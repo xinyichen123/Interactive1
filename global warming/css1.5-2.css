@@ -28,6 +28,7 @@ nav {
 
 .content {
     grid-area: content;
+    font-size: 80%;
 }
 
 .header {
@@ -37,10 +38,11 @@ nav {
     grid-area: footer;
 }
 
-  .wrapper {
+.wrapper {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: 120px 120px 120px;
+    grid-template-columns: 240px 510px 150px;
+    grid-template-rows: 240px 510px 150px;
     grid-template-areas:
     "....... header header"
     "sidebar content content"
@@ -52,11 +54,31 @@ nav {
   height: 500px;
 }
 .location1{
-  position: absolute;
-    top: 40px;
-    right: 990px;
+  position: relative;
+    /*top: 60px;
+    right: 1000px;*/
+    margin-left: -10px;
+    margin-top: -282px;
+    /*margin-left: 1068px;
+    margin-top: -298px;*/
     background: transparent;
+    filter: drop-shadow(-3px -3px 2px #FFA800)
+          drop-shadow(5px 5px 5px #FFA800)
+          drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.2));
 }
+
+#pig{
+     width: 405px;
+}
+.location{
+  position: relative;
+    /*top: 60px;
+    right: 1000px;*/
+    margin-left: 938px;
+    margin-top: 32px;
+    /*margin-left: -10px;
+    margin-top: -212px;*/
+ }
 
 
 .box {
@@ -64,11 +86,11 @@ nav {
   color: #1163FF;
   border-radius: 5px;
   padding: 10px;
-  font-size: 80%;
 }
 .header,
 .footer {
   background-color: #FFA800;
+  font-size: 260%;
 }
 .sidebar{
   background-color: #FFA800;
