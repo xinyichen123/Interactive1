@@ -41,7 +41,7 @@ nav {
 .wrapper {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: 240px 510px 150px;
+    grid-template-columns: 420px 510px 150px;
     grid-template-areas:
     "....... header header"
     "sidebar content content"
@@ -56,7 +56,7 @@ nav {
   position: relative;
     /*top: 60px;
     right: 1000px;*/
-    margin-left: -10px;
+    margin-left: 210px;
     margin-top: -392px;
     /*margin-left: 1068px;
     margin-top: -298px;*/
@@ -73,7 +73,7 @@ nav {
   position: relative;
     /*top: 60px;
     right: 1000px;*/
-    margin-left: 348px;
+    margin-left: 530px;
     margin-top: 202px;
     /*margin-left: -10px;
     margin-top: -212px;*/
