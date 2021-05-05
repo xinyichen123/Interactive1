@@ -37,12 +37,11 @@ nav {
     grid-area: footer;
 }
 
-  .wrapper {
+.wrapper {
     display: grid;
     grid-gap: 10px;
-    
     grid-template-columns: 240px 510px 150px;
-    /*grid-template-columns: 9px 961px 150px;*/
+    grid-template-rows: 430px 510px 150px;
     grid-template-areas:
     "....... header header"
     "sidebar content content"
@@ -51,19 +50,19 @@ nav {
     color: #002B7C;
   }
 
-  #pig1{
+#pig1{
   height: 500px;
 }
 .location1{
   position: relative;
-    /*top: 60px;
-    right: 1000px;*/
-    margin-left: -10px;
-    margin-top: -282px;
-    /*margin-left: 1068px;
-    margin-top: -298px;*/
-    background: transparent;
-    filter: drop-shadow(-3px -3px 2px #FFA800)
+  /*top: 60px;
+  right: 1000px;*/
+  margin-left: -10px;
+  margin-top: -392px;
+  /*margin-left: 1068px;
+  margin-top: -298px;*/
+  background: transparent;
+  filter: drop-shadow(-3px -3px 2px #FFA800)
           drop-shadow(5px 5px 5px #FFA800)
           drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.2));
 }
@@ -75,8 +74,8 @@ nav {
   position: relative;
     /*top: 60px;
     right: 1000px;*/
-    margin-left: 938px;
-    margin-top: 32px;
+    margin-left: 328px;
+    margin-top: 222px;
     /*margin-left: -10px;
     margin-top: -212px;*/
  }
@@ -103,7 +102,7 @@ nav {
     right: 30px;
     width: 60px;
     height: 60px;
-    border: solid 2px black;
+    border: solid 4px #FFA800;
     border-radius: 50%;
     z-index: 100;
     -webkit-transition: all 0.4s ease;
@@ -112,14 +111,14 @@ nav {
 }
 
 .menu-button.open {
-  border: solid 2px white;
+  border: solid 4px #002B7C;
 }
 
 .menu {
   position: fixed;
   height: 100vh;
   width: 500px;
-  background-color:black;
+  background-color:red;
   color:white;
   left: calc( 100% - 500px);
   text-align: center;
@@ -163,5 +162,5 @@ body.darkmode li a{
   height: 100vh;
   background: black;
   opacity: 0.5;
-  z-index: -20;
+  z-index: 0;
 }

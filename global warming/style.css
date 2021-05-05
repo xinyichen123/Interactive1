@@ -157,6 +157,7 @@ body.darkmode {
 
 body.darkmode button{
 	color: #BDFF00;
+	background: darkred;
 }
 
 body.darkmode li a{

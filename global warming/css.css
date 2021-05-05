@@ -57,7 +57,7 @@ nav {
     /*top: 60px;
     right: 1000px;*/
     margin-left: -10px;
-    margin-top: -282px;
+    margin-top: -392px;
     /*margin-left: 1068px;
     margin-top: -298px;*/
     background: transparent;
@@ -73,8 +73,8 @@ nav {
   position: relative;
     /*top: 60px;
     right: 1000px;*/
-    margin-left: 938px;
-    margin-top: 32px;
+    margin-left: 348px;
+    margin-top: 202px;
     /*margin-left: -10px;
     margin-top: -212px;*/
  }
@@ -99,7 +99,7 @@ nav {
     right: 30px;
     width: 60px;
     height: 60px;
-    border: solid 2px black;
+    border: solid 4px #fe8e15;
     border-radius: 50%;
     z-index: 100;
     -webkit-transition: all 0.4s ease;
@@ -108,14 +108,14 @@ nav {
 }
 
 .menu-button.open {
-  border: solid 2px white;
+  border: solid 4px #6B9EFF;
 }
 
 .menu {
   position: fixed;
   height: 100vh;
   width: 500px;
-  background-color:black;
+  background-color:#fff500;
   color:white;
   left: calc( 100% - 500px);
   text-align: center;
@@ -159,5 +159,5 @@ body.darkmode li a{
   height: 100vh;
   background: black;
   opacity: 0.5;
-  z-index: -20;
+  z-index: 0;
 }
