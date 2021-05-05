@@ -167,3 +167,20 @@ body.darkmode li a{
 	/*	redefine a CSS variable */
 	--accent-color: #BDFF00;
 }
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+  body {
+  	background: blue;
+  	color: #BDFF00;
+  	--accent-color: #BDFF00;
+  	font-size: 25px;
+     }
+  li a {
+  	font-size: 20px;
+  	color: #BDFF00;
+  }
+  button{
+	color: #BDFF00;
+	background: blue;
+}
+}
