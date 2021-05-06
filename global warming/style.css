@@ -168,7 +168,7 @@ body.darkmode li a{
 	--accent-color: #BDFF00;
 }
 
-@media screen and (min-width: 800px) and (max-width: 1000px) {
+@media screen and (min-width: 20px) and (max-width: 1000px) {
   body {
   	background: blue;
   	color: #BDFF00;

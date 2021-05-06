@@ -68,3 +68,10 @@ li a {
 	color: #323F39;
 	text-decoration: none;
 }
+@media screen and (min-width: 20px) and (max-width: 1000px) {
+  
+section h3{
+	font-size: 4em;
+	font-family: BebasNeue;
+	word-spacing: 1px;
+}

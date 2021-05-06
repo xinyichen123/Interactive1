@@ -164,7 +164,7 @@ body.darkmode li a{
   opacity: 0.5;
   z-index: 0;
 }
-@media screen and (min-width: 800px) and (max-width: 1000px) {
+@media screen and (min-width: 20px) and (max-width: 1000px) {
   .wrapper {
     color:#6B9EFF;
     background: #FF0000;
