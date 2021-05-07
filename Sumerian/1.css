@@ -100,7 +100,7 @@ body:after{
   "footer  footer  footer";
   background-color: #365949;
   color: #444;
-  height: 3600px;
+  height: 3610px;
 }
 .location{
   position: absolute;
@@ -111,15 +111,15 @@ body:after{
 .location1{
   position: absolute;
   top: 710px;
-  right: 276px;
+  right: 260px;
   background: transparent;
 }
 #pig0{
-  height: 2140px;
+  height: 3550px;
   width: 30px;
 }
 #pig4{
-  height: 2750px;
+  height: 2810px;
   width: 30px;
 }
 /*.shape:hover {
@@ -254,7 +254,7 @@ body:after{
   "sidebar content content"
   "footer  footer  footer";
   color: #444;
-  height: 2880px;
+  height: 4300px;
   background: #365949;
 }
 
