@@ -26,37 +26,42 @@ body{
   z-index: -1;
   transition: all 1500ms ease;
 }
+audio {
+    top: 160px;
+    right: 680px;
+    position: absolute;
+}
 
 body:before {
-    content: 'Perosonal';
+    content: 'Xinyi';
     position: fixed;
     top: 436px;
     left: 300px;
-    transform: translate(-50%,-50%);
-    font-size: 4em;
-    font-weight: 700;
-    color: transparent;
-    -webkit-text-stroke: 2px #365949;
-    font-family: 'Baumans';
-    line-height: 168px;
-    word-break: break-all;
-    width: 250px;
-    transition: all 1500ms ease;
-    opacity: 0.6;
-    filter: drop-shadow(7px 2px 4px rgba(255, 255, 255, 0.3)) drop-shadow(16px 13px 9px rgba(0, 0, 0, 0.2)) drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.2));
-}
-body:after {
-    content: 'Page';
-    position: fixed;
-    top: 399px;
-    left: 1500px;
     transform: translate(-50%,-50%);
     font-size: 5em;
     font-weight: 700;
     color: transparent;
     -webkit-text-stroke: 2px #365949;
     font-family: 'Baumans';
-    width: 199px;
+    line-height: 175px;
+    word-break: break-all;
+    width: 417px;
+    transition: all 1500ms ease;
+    opacity: 0.6;
+    filter: drop-shadow(7px 2px 4px rgba(255, 255, 255, 0.3)) drop-shadow(16px 13px 9px rgba(0, 0, 0, 0.2)) drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.2));
+}
+body:after {
+    content: 'Chen';
+    position: fixed;
+    top: 399px;
+    left: 1530px;
+    transform: translate(-50%,-50%);
+    font-size: 5em;
+    font-weight: 700;
+    color: transparent;
+    -webkit-text-stroke: 2px #365949;
+    font-family: 'Baumans';
+    width: 309px;
     line-height: 195px;
     word-break: break-all;
     opacity: 0.6;
@@ -198,7 +203,12 @@ button:hover{
 
 
 /*	DARK MODE STYLES GO HERE */
-
+body.darkmode h1{
+	text-align: center;
+	margin: 1rem auto;
+	background: lightyellow;
+	color: #ffc107;
+}
 body.darkmode {
 	background: darkred;
 	color: #ffc107;
@@ -209,23 +219,56 @@ body.darkmode {
 
 body.darkmode button{
 	color: #ffc107;
-	background: darkred;
-	border: 2px solid darkred;
+	background: transparent;
+	border: 2px solid transparent;
 }
 
 body.darkmode li a{
-	background: darkred;
 	color: #ffc107;
 
 	/*	redefine a CSS variable */
 	--accent-color: #ffc107;
 }
-
+body:before.darkmode{
+    content: 'Xinyi';
+    position: fixed;
+    top: 436px;
+    left: 300px;
+    transform: translate(-50%,-50%);
+    font-size: 5em;
+    font-weight: 700;
+    color: transparent;
+    -webkit-text-stroke: 2px #feffe0;
+    font-family: 'Baumans';
+    line-height: 175px;
+    word-break: break-all;
+    width: 417px;
+    transition: all 1500ms ease;
+    opacity: 0.6;
+    filter: drop-shadow(7px 2px 4px rgba(255, 255, 255, 0.3)) drop-shadow(16px 13px 9px rgba(0, 0, 0, 0.2)) drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.2));
+}
+body:after.darkmode {
+    content: 'Chen';
+    position: fixed;
+    top: 399px;
+    left: 1530px;
+    transform: translate(-50%,-50%);
+    font-size: 5em;
+    font-weight: 700;
+    color: #feffe0;
+    -webkit-text-stroke: 2px #feffe0;
+    font-family: 'Baumans';
+    width: 309px;
+    line-height: 195px;
+    word-break: break-all;
+    opacity: 0.6;
+    filter: drop-shadow(7px 2px 4px rgba(255, 255, 255, 0.3)) drop-shadow(16px 13px 9px rgba(0, 0, 0, 0.2)) drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.2));
+}
 @media screen and (min-width: 20px) and (max-width: 1000px) {
   body {
   	background: blue;
-  	color: #BDFF00;
-  	--accent-color: #BDFF00;
+  	color: blue;
+  	--accent-color: lightyellow;
   	font-size: 25px;
      }
   li a {
@@ -234,7 +277,22 @@ body.darkmode li a{
   }
   button{
 	color: #BDFF00;
-	background: blue;
+	background: transparent;
 	border: 4px transparent;
 }
+  body:before{
+    content: ' ';
+   }
+  h1{
+    background: none;
+    color: lightyellow;
+  }
+ h3{
+    background: none;
+    color: lightyellow;
+  }
+ p{
+    background: none;
+    color: lightyellow;
+  }
 }
